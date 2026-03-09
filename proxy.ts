@@ -8,7 +8,7 @@ const ALLOWED_IPS = [
     '::1',
     '127.0.0.1',
     '103.88.216.121', // User's Laptop
-    // 'HER_IP_HERE'
+    '111.93.160.42',  // Her IP
 ];
 
 export function proxy(request: NextRequest) {
