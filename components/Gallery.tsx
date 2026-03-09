@@ -57,11 +57,7 @@ export function Gallery() {
                                         backgroundSize: 'cover',
                                         backgroundPosition: 'center',
                                     }}
-                                >
-                                    <span className="text-slate-400 font-inter text-sm font-medium opacity-60">
-                                        Replace in /public/pictures/photo{index + 1}.jpg
-                                    </span>
-                                </div>
+                                />
 
                                 {/* Premium subtle gradient overlay */}
                                 <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
