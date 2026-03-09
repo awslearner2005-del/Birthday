@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-// Placeholder photos to be replaced by the user later.
-const placeholders = Array.from({ length: 10 }).map((_, i) => `/pictures/photo${i + 1}.jpg`);
+// Use the 8 photos uploaded by the user.
+const placeholders = Array.from({ length: 8 }).map((_, i) => `/pictures/photo${i + 1}.jpg`);
 
 export function Gallery() {
     return (
@@ -37,7 +37,7 @@ export function Gallery() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[300px] md:auto-rows-[400px]">
                     {placeholders.map((src, index) => {
                         // Give some items a different span for a masonry-like feel
-                        const isLarge = index === 0 || index === 4 || index === 7;
+                        const isLarge = index === 0 || index === 3 || index === 6;
                         const spanClass = isLarge ? "md:col-span-2 md:row-span-2" : "col-span-1 row-span-1";
 
                         return (
