@@ -7,7 +7,7 @@ import type { NextRequest } from 'next/server';
 const ALLOWED_IPS = [
     '::1',
     '127.0.0.1',
-    // 'YOUR_IP_HERE',
+    '103.88.216.121', // User's Laptop
     // 'HER_IP_HERE'
 ];
 
