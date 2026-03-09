@@ -22,7 +22,7 @@ export function Footer() {
                     <div className="w-16 h-px bg-rose-500/50 mx-auto mb-16"></div>
 
                     <div className="flex flex-col items-center gap-2 text-slate-400 font-light text-sm uppercase tracking-[0.4em]">
-                        <span>10 March 2007</span>
+                        <span>10 March 2026</span>
                         <span className="text-rose-400">❤</span>
                         <span>Forever</span>
                     </div>

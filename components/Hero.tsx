@@ -24,7 +24,7 @@ export function Hero() {
                     className="inline-block px-4 py-1.5 rounded-full border border-slate-200 bg-white/50 backdrop-blur-md mb-8"
                 >
                     <span className="text-sm font-medium tracking-widest text-slate-500 uppercase">
-                        10 March 2007
+                        10 March 2026
                     </span>
                 </motion.div>
 
